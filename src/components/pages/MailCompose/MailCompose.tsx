@@ -15,9 +15,9 @@ const MailCompose: FC<MailComposeProps> = () => (
         <Card>
           <ListGroup className="list-group-transparent mb-0 mail-inbox pb-3" defaultActiveKey='#link'>
             <div className="mt-4 mb-4 mx-4 text-center">
-              <Link to={`${process.env.PUBLIC_URL}/pages/mailinbox`} className="btn btn-primary btn-lg d-grid">Inbox</Link>
+              <Link to={`/pages/mailinbox`} className="btn btn-primary btn-lg d-grid">Inbox</Link>
             </div>
-            <Link to={`${process.env.PUBLIC_URL}/pages/mailinbox`} className=""><ListGroup.Item eventKey='#link' className="d-flex align-items-center mx-4">
+            <Link to={`/pages/mailinbox`} className=""><ListGroup.Item eventKey='#link' className="d-flex align-items-center mx-4">
               <span className="icons"><i className="ri-mail-line"></i></span> Inbox <Badge bg='secondary' className="ms-auto bradius">14</Badge>
             </ListGroup.Item></Link>
             <Link to='#'><ListGroup.Item href="#link1" className="d-flex align-items-center mx-4">

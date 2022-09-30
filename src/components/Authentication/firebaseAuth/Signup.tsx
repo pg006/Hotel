@@ -22,7 +22,7 @@ const SignUp = () => {
   }
   let navigate = useNavigate(); 
   const RouteChange = () =>{ 
-    let path = `${process.env.PUBLIC_URL}/dashboard`; 
+    let path = `/dashboard`; 
     navigate(path);
   }
   return (
@@ -67,7 +67,7 @@ const SignUp = () => {
                 </InputGroup>
                 <label className="custom-control custom-checkbox mt-4">
                   <input type="checkbox" className="custom-control-input" />
-                  <span className="custom-control-label">Agree the <Link to={`${process.env.PUBLIC_URL}/pages/extension/term`}>terms and policy</Link></span>
+                  <span className="custom-control-label">Agree the <Link to={`/pages/extension/term`}>terms and policy</Link></span>
                 </label>
                 <div className="container-login100-form-btn">
                   <Link to='#' onClick={Signup} className="login100-form-btn btn-primary"> Register{Loader ? <span role="status" aria-hidden="true" className="spinner-border spinner-border-sm ms-2"></span> :""}</Link>
@@ -93,7 +93,7 @@ const SignUp = () => {
                     </div>
                   </Link>
                 </div>
-                <Link to={`${process.env.PUBLIC_URL}/Authentication/firebaseAuth/login`} className='d-flex justify-content-center mt-4'>
+                <Link to={`/Authentication/firebaseAuth/login`} className='d-flex justify-content-center mt-4'>
                   Alerady have an account ?
                 </Link>
               </form>

@@ -35,15 +35,15 @@ const Register: FC<RegisterProps> = () => (
           <Password/>
           <label className="custom-control custom-checkbox mt-4">
             <input type="checkbox" className="custom-control-input"/>
-              <span className="custom-control-label">Agree the <Link to={`${process.env.PUBLIC_URL}/pages/extension/term`}>terms and policy</Link></span>
+              <span className="custom-control-label">Agree the <Link to={`/pages/extension/term`}>terms and policy</Link></span>
           </label>
           <div className="container-login100-form-btn">
-            <Link to={`${process.env.PUBLIC_URL}/Dashboard`}className="login100-form-btn btn-primary">
+            <Link to={`/Dashboard`}className="login100-form-btn btn-primary">
               Register
             </Link>
           </div>
           <div className="text-center pt-3">
-            <p className="text-dark mb-0">Already have account?<Link to={`${process.env.PUBLIC_URL}/authentication/login`} className="text-primary ms-1">Sign In</Link></p>
+            <p className="text-dark mb-0">Already have account?<Link to={`/authentication/login`} className="text-primary ms-1">Sign In</Link></p>
           </div>
           <label className="login-social-icon"><span>Register with Social</span></label>
           <div className="d-flex justify-content-center">

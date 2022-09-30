@@ -535,78 +535,78 @@ const FileAttachments: FC<FileAttachmentsProps> = () => (
                 <Row>
                   <Col xl={2} lg={3} md={4} sm={4} >
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/4.jpg")} alt="png-4" className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image01.jpg</span></Link>
                     </div>
                   </Col>
                   <Col xl={2} lg={3} md={4} sm={4}>
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/file-image2.jpg")} alt="file-2" className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image02.jpg</span></Link>
                     </div>
                   </Col>
                   <Col xl={2} lg={3} md={4} sm={4}>
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/file-image3.jpg")} alt="file-3"className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image03.jpg</span></Link>
                     </div>
                   </Col>
                   <Col xl={2} lg={3} md={4} sm={4}>
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/file-image4.jpg")} alt="file-4" className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image04</span></Link>
                     </div>
                   </Col>
                   <Col xl={2} lg={3} md={4} sm={4}>
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/file-image5.jpg")} alt="file-5" className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image05.jpg</span></Link>
                     </div>
                   </Col>
                   <Col xl={2} lg={3} md={4} sm={4}>
                     <div className="file-image p-2">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                      <Link to={`/filemanager/filedetails`}>
                         <img src={require("../../../assets/images/pngs/file-image1.jpg")} alt="file-1" className="w-100" />
                       </Link>
                       <ul className="icons">
                         <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                         <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                        <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                        <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                       </ul>
                       <Link to="#"><span className="file-name">Image06.jpg</span></Link>
                     </div>
@@ -632,51 +632,51 @@ const FileAttachments: FC<FileAttachmentsProps> = () => (
           <Card.Body>
             <div className="text-wrap">
               <div className="file-image-1">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/pngs/4.jpg")} className="br-5" alt="pngs-4" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image01.jpg</span>
               </div>
               <div className="file-image-1">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-details" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-details" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Word.doc</span>
               </div>
               <div className="file-image-1">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Excel.xls</span>
               </div>
               <div className="file-image-1">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Document.pdf</span>
               </div>
               <div className="file-image-1">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/media/files/imgformat.png")} className="br-5" alt="formart" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image02.jpg</span>
               </div>
@@ -699,51 +699,51 @@ const FileAttachments: FC<FileAttachmentsProps> = () => (
           <Card.Body>
             <div className="text-wrap">
               <div className="file-image-1 file-image-md">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/pngs/4.jpg")} className="br-5" alt="pngs-4" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image01.jpg</span>
               </div>
               <div className="file-image-1 file-image-md">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-docs" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-docs" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Word.doc</span>
               </div>
               <div className="file-image-1 file-image-md">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Excel.xls</span>
               </div>
               <div className="file-image-1 file-image-md">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Document.pdf</span>
               </div>
               <div className="file-image-1 file-image-md">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/media/files/imgformat.png")} className="br-5" alt="file-5" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image02.jpg</span>
               </div>
@@ -766,51 +766,51 @@ const FileAttachments: FC<FileAttachmentsProps> = () => (
           <Card.Body>
             <div className="text-wrap">
               <div className="file-image-1 file-image-lg">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/pngs/4.jpg")} className="br-5" alt="pngs-4" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image01.jpg</span>
               </div>
               <div className="file-image-1 file-image-lg">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-details" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/doc.png")} alt="file-details" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Word.doc</span>
               </div>
               <div className="file-image-1 file-image-lg">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file2.png")} alt="file-2" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Excel.xls</span>
               </div>
               <div className="file-image-1 file-image-lg">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
+                <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/file.png")} alt="file-1" /></Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Document.pdf</span>
               </div>
               <div className="file-image-1 file-image-lg">
-                <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}>
+                <Link to={`/filemanager/filedetails`}>
                   <img src={require("../../../assets/images/media/files/imgformat.png")} className="br-5" alt="file-3" />
                 </Link>
                 <ul className="icons">
                   <li><Link to="#" className="btn bg-danger"><i className="fe fe-trash"></i></Link></li>
                   <li><Link to="#" className="btn bg-secondary"><i className="fe fe-download"></i></Link></li>
-                  <li><Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
+                  <li><Link to={`/filemanager/filedetails`} className="btn bg-primary"><i className="fe fe-eye"></i></Link></li>
                 </ul>
                 <span className="file-name-1">Image02.jpg</span>
               </div>

@@ -14,7 +14,7 @@ const Blogs: FC<BlogsProps> = () => (
       <h1 className="page-title">Blog</h1>
       <div>
         <Breadcrumb>
-          <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogpost`} className="btn btn-primary"><i className="fa fa-plus-square me-2"></i>Add Post</Link>
+          <Link to={`/pages/extension/blogpost`} className="btn btn-primary"><i className="fa fa-plus-square me-2"></i>Add Post</Link>
         </Breadcrumb>
       </div>
     </div>
@@ -24,14 +24,14 @@ const Blogs: FC<BlogsProps> = () => (
     <Row>
       <Col sm={6} md={12} lg={6} xl={4}>
         <Card>
-          <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}><img className="card-img-top" src={require("../../../../assets/images/media/13.jpg")} alt="And this isn't my nose. This is a false one." /></Link>
+          <Link to={`/pages/extension/blogdetails`}><img className="card-img-top" src={require("../../../../assets/images/media/13.jpg")} alt="And this isn't my nose. This is a false one." /></Link>
           <Card.Body className="d-flex flex-column">
-            <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas.</Link></h3>
+            <h3><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas.</Link></h3>
             <div className="text-muted">To take a trivial example, which of us ever undertakes laborious physical exerciser , except to obtain some advantage from it...</div>
             <div className="d-flex align-items-center pt-5 mt-auto">
               <img className="avatar brround avatar-md me-3 cover-image" alt='user 18' src={require("../../../../assets/images/users/18.jpg")} />
               <div>
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-default">Megan Peters</Link>
+                <Link to={`/pages/profile`} className="text-default">Megan Peters</Link>
                 <small className="d-block text-muted">1 days ago</small>
               </div>
               <div className="ms-auto">
@@ -42,14 +42,14 @@ const Blogs: FC<BlogsProps> = () => (
           </Card.Body>
         </Card>
         <Card>
-          <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}><img className="card-img-top br-be-0 br-bs-0" src={require("../../../../assets/images/media/15.jpg")} alt="How do you know she is a witch?" /></Link>
+          <Link to={`/pages/extension/blogdetails`}><img className="card-img-top br-be-0 br-bs-0" src={require("../../../../assets/images/media/15.jpg")} alt="How do you know she is a witch?" /></Link>
           <Card.Body className="d-flex flex-column">
-            <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
+            <h3><Link to={`/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
             <div className="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque...</div>
             <div className="d-flex align-items-center pt-5 mt-auto">
               <img className="avatar  brround avatar-md me-3 cover-image" alt='user 6' src={require("../../../../assets/images/users/6.jpg")} />
               <div>
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-default">Carol Paige</Link>
+                <Link to={`/pages/profile`} className="text-default">Carol Paige</Link>
                 <small className="d-block text-muted">2 days ago</small>
               </div>
               <div className="ms-auto">
@@ -64,14 +64,14 @@ const Blogs: FC<BlogsProps> = () => (
       {/* <!-- COL-END --> */}
       <Col sm={6} md={12} lg={6} xl={4}>
         <Card>
-          <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}><img className="card-img-top" src={require("../../../../assets/images/media/14.jpg")} alt="Well, I didn't vote for you." /></Link>
+          <Link to={`/pages/extension/blogdetails`}><img className="card-img-top" src={require("../../../../assets/images/media/14.jpg")} alt="Well, I didn't vote for you." /></Link>
           <Card.Body className="d-flex flex-column">
-            <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
+            <h3><Link to={`/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
             <div className="text-muted">Who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces.</div>
             <div className="d-flex align-items-center pt-5 mt-auto">
               <img className="avatar brround avatar-md me-3 cover-image" alt='user 16' src={require("../../../../assets/images/users/16.jpg")} />
               <div>
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-default">Anna Ogden</Link>
+                <Link to={`/pages/profile`} className="text-default">Anna Ogden</Link>
                 <small className="d-block text-muted">2 days ago</small>
               </div>
               <div className="ms-auto">
@@ -82,14 +82,14 @@ const Blogs: FC<BlogsProps> = () => (
           </Card.Body>
         </Card>
         <Card>
-          <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}><img className="card-img-top br-be-0 br-bs-0" src={require("../../../../assets/images/media/16.jpg")} alt="Shut up!" /></Link>
+          <Link to={`/pages/extension/blogdetails`}><img className="card-img-top br-be-0 br-bs-0" src={require("../../../../assets/images/media/16.jpg")} alt="Shut up!" /></Link>
           <Card.Body className="d-flex flex-column">
-            <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
+            <h3><Link to={`/pages/extension/blogdetails`}> Voluptatem quia voluptas </Link></h3>
             <div className="text-muted">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut ..</div>
             <div className="d-flex align-items-center pt-5 mt-auto">
               <img className="avatar brround avatar-md me-3 cover-image" alt='user 7' src={require("../../../../assets/images/users/7.jpg")} />
               <div>
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-default">Fiona Hodges</Link>
+                <Link to={`/pages/profile`} className="text-default">Fiona Hodges</Link>
                 <small className="d-block text-muted">5 days ago</small>
               </div>
               <div className="ms-auto">
@@ -136,7 +136,7 @@ const Blogs: FC<BlogsProps> = () => (
                 <img className="card-aside-column br-5 cover-image w-100" alt='media 22' src={require("../../../../assets/images/media/22.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg='danger' className="me-1 mb-1 mt-1">Lifestyle</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Blogs: FC<BlogsProps> = () => (
                 <img className="card-aside-column br-5 cover-image w-100" alt='media 19' src={require("../../../../assets/images/media/12.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg='primary' className="me-1 mb-1 mt-1">Business</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Blogs: FC<BlogsProps> = () => (
                 <img className="card-aside-column br-5 cover-image w-100" alt='media 19' src={require("../../../../assets/images/media/about.jpg")} />
                 <div className="ps-3 flex-column">
                   <span className="badge bg-secondary me-1 mb-1 mt-1">Travel</span>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -160,7 +160,7 @@ const Blogs: FC<BlogsProps> = () => (
                 <img className="card-aside-column br-5 cover-image w-100" alt='media19' src={require("../../../../assets/images/media/25.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg='success' className="me-1 mb-1 mt-1">Meeting</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>

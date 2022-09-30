@@ -29,7 +29,7 @@ const Wishlist: FC<WishlistProps> = () => (
                   </Col>
                   <Col xl={7} lg={6} md={7} sm={6}>
                     <div className="float-sm-end float-none my-1">
-                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn btn-primary me-2">Add All to Cart</Link>
+                      <Link to={`/ecommerce/shoppingcart`} className="btn btn-primary me-2">Add All to Cart</Link>
                       <Link to="#" className="btn btn-primary">Clear All</Link>
                     </div>
                   </Col>

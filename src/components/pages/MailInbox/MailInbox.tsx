@@ -40,7 +40,7 @@ const MailInbox: FC<MailInboxProps> = () => (
         <Card>
           <ListGroup className="list-group-transparent mb-0 mail-inbox pb-3" defaultActiveKey='#link'>
             <div className="mt-4 mx-4 mb-4 text-center">
-              <Link to={`${process.env.PUBLIC_URL}/pages/mailcompose`} className="btn btn-primary btn-lg d-grid">Compose</Link>
+              <Link to={`/pages/mailcompose`} className="btn btn-primary btn-lg d-grid">Compose</Link>
             </div>
             <Link to='#'><ListGroup.Item href='#link' className="d-flex align-items-center mx-4">
               <span className="icons"><i className="ri-mail-line"></i></span> Inbox <Badge bg='secondary' className="ms-auto bradius">14</Badge>
@@ -137,8 +137,8 @@ const MailInbox: FC<MailInboxProps> = () => (
                             </td>
                             <td className="inbox-small-cells"><i className={`fa fa-star ${item.starClass}`}></i></td>
                             <td className="inbox-small-cells"><i className={`fa fa-bookmark ${item.bookMark}`}></i></td>
-                            <td className="view-message dont-show fw-semibold clickable-row" ><Link to={`${process.env.PUBLIC_URL}/Pages/mailread`} className='text-dark'>{item.subject}</Link></td>
-                            <td className="view-message clickable-row" ><Link to={`${process.env.PUBLIC_URL}/Pages/mailread`} className='text-dark'>{item.description}</Link></td>
+                            <td className="view-message dont-show fw-semibold clickable-row" ><Link to={`/Pages/mailread`} className='text-dark'>{item.subject}</Link></td>
+                            <td className="view-message clickable-row" ><Link to={`/Pages/mailread`} className='text-dark'>{item.description}</Link></td>
                             <td className="view-message text-end fw-semibold clickable-row" >{item.date}</td>
                           </tr>
                         ))}

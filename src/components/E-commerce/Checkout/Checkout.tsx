@@ -206,7 +206,7 @@ const Checkout: FC<CheckoutProps> = () => {
               <div className="d-flex">
                 <img className="avatar-xxl br-7" src={require("../../../assets/images/pngs/4.jpg")} alt="img" />
                 <div className="ms-3">
-                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h4>
+                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h4>
                   <div className="text-warning fs-14">
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
@@ -225,7 +225,7 @@ const Checkout: FC<CheckoutProps> = () => {
               <div className="d-flex">
                 <img className="avatar-xxl br-7" src={require("../../../assets/images/pngs/6.jpg")} alt="img" />
                 <div className="ms-3">
-                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Black Digital Camera</Link></h4>
+                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`/ecommerce/productdetails`}>Black Digital Camera</Link></h4>
                   <div className="text-warning fs-14">
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
@@ -244,7 +244,7 @@ const Checkout: FC<CheckoutProps> = () => {
               <div className="d-flex">
                 <img className="avatar-xxl br-7" src={require("../../../assets/images/pngs/5.jpg")} alt="img" />
                 <div className="ms-3">
-                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Men shirt for party wear</Link></h4>
+                  <h4 className="mb-1 fw-semibold fs-14"><Link to={`/ecommerce/productdetails`}>Men shirt for party wear</Link></h4>
                   <div className="text-warning fs-14">
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>

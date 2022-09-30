@@ -18,7 +18,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
               <Link to="#" className="d-flex me-4 mb-2"><i className="fe fe-calendar fs-16 me-1 p-3 bg-secondary-transparent text-secondary bradius"></i>
                 <div className="mt-0 mt-3 ms-1 text-muted font-weight-semibold">Sep-25-2021</div>
               </Link>
-              <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="d-flex mb-2"><i className="fe fe-user fs-16 me-1 p-3 bg-primary-transparent text-primary bradius"></i>
+              <Link to={`/pages/profile`} className="d-flex mb-2"><i className="fe fe-user fs-16 me-1 p-3 bg-primary-transparent text-primary bradius"></i>
                 <div className="mt-0 mt-3 ms-1 text-muted font-weight-semibold">Harry Fisher</div>
               </Link>
               <div className="ms-auto">
@@ -44,7 +44,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
           <Card.Body className="pb-0">
             <div className="media mb-5 overflow-visible d-block d-sm-flex">
               <div className="me-3 mb-2">
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/5.jpg")} /> </Link>
+                <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/5.jpg")} /> </Link>
               </div>
               <div className="media-body overflow-visible">
                 <div className="border mb-5 p-4 br-5">
@@ -73,7 +73,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
                 </div>
                 <div className="media mb-5 overflow-visible">
                   <div className="me-3">
-                    <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/2.jpg")} /> </Link>
+                    <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/2.jpg")} /> </Link>
                   </div>
                   <div className="media-body border p-4 overflow-visible br-5">
                     <Nav className="float-end">
@@ -101,7 +101,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
             </div>
             <div className="media mb-5 overflow-visible">
               <div className="me-3">
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/15.jpg")} /> </Link>
+                <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/15.jpg")} /> </Link>
               </div>
               <div className="media-body overflow-visible">
                 <div className="border mb-5 p-4 br-5">
@@ -127,7 +127,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
             </div>
             <div className="media mb-5 overflow-visible d-block d-sm-flex">
               <div className="me-3 mb-1">
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/5.jpg")} /> </Link>
+                <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/5.jpg")} /> </Link>
               </div>
               <div className="media-body overflow-visible">
                 <div className="border mb-5 p-4 br-5">
@@ -153,7 +153,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
                 </div>
                 <div className="media mb-5 overflow-visible d-block d-sm-flex">
                   <div className="me-3 mb-1">
-                    <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/2.jpg")} /> </Link>
+                    <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/2.jpg")} /> </Link>
                   </div>
                   <div className="media-body overflow-visible">
                     <div className="border p-4 mb-5 br-5">
@@ -179,7 +179,7 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
                     </div>
                     <div className="media overflow-visible">
                       <div className="me-3">
-                        <Link to={`${process.env.PUBLIC_URL}/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/9.jpg")} /> </Link>
+                        <Link to={`/pages/profile`}> <img className="media-object rounded-circle thumb-sm" alt="64x64" src={require("../../../../assets/images/users/9.jpg")} /> </Link>
                       </div>
                       <div className="media-body border p-4 overflow-visible br-5">
                         <nav className="nav float-end">
@@ -272,28 +272,28 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
               <div className="d-flex overflow-visible">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/1.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Simon Sais</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Simon Sais</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/3.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Cherry Blossom</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Cherry Blossom</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/5.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Ivan Notheridiya</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Ivan Notheridiya</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/15.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Manny Jah</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Manny Jah</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
@@ -310,28 +310,28 @@ const BlogDetails: FC<BlogDetailsProps> = () => (
               <div className="d-flex overflow-visible">
                 <img className="card-aside-column br-5 cover-image" alt='media19' src={require("../../../../assets/images/media/19.jpg")} />
                 <div className="ps-3 flex-column">
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="card-aside-column br-5 cover-image" alt='media22' src={require("../../../../assets/images/media/22.jpg")} />
                 <div className="ps-3 flex-column">
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="card-aside-column br-5 cover-image" alt='media12' src={require("../../../../assets/images/media/12.jpg")} />
                 <div className="ps-3 flex-column">
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="card-aside-column br-5 cover-image" alt='media25' src={require("../../../../assets/images/media/25.jpg")} />
                 <div className="ps-3 flex-column">
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>

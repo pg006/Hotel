@@ -193,7 +193,7 @@ export const Sidebar = () => {
         onMouseOut={() => Outhover()}>
         <PerfectScrollbar options={{suppressScrollX:true, useBothWheelAxes:false}}>
           <div className="side-header">
-            <Link className="header-brand1" to={`${process.env.PUBLIC_URL}/Dashboard/`}>
+            <Link className="header-brand1" to={`/Dashboard/`}>
               <img src={require("../../assets/images/brand/logo.png")} className="header-brand-img desktop-logo" alt="logo1" />
               <img src={require("../../assets/images/brand/logo-1.png")} className="header-brand-img toggle-logo" alt="logo-2" />
               <img src={require("../../assets/images/brand/logo-2.png")} className="header-brand-img light-logo" alt="logo-3" />

@@ -102,7 +102,7 @@ const FileManager: FC<FileManagerProps> = () => (
           <div className="text-dark mb-2 ms-1 fs-20 fw-semibold">All Folders</div>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-primary-transparent border border-primary brround">
@@ -136,7 +136,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-danger-transparent border border-danger brround">
@@ -170,7 +170,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-success-transparent border border-success brround">
@@ -204,7 +204,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-pink-transparent border border-pink brround">
@@ -238,7 +238,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-warning-transparent border border-warning brround">
@@ -272,7 +272,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-secondary-transparent border border-secondary brround">
@@ -306,7 +306,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-danger-transparent border border-orange brround">
@@ -340,7 +340,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={3} md={6} sm={6}>
             <Card className="pos-relative">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filemanagerlist`} className="open-file"></Link>
+              <Link to={`/filemanager/filemanagerlist`} className="open-file"></Link>
               <Card.Body className="px-4 pt-4 pb-2">
                 <div className="d-flex">
                   <span className="bg-info-transparent border border-info brround">
@@ -377,7 +377,7 @@ const FileManager: FC<FileManagerProps> = () => (
         <Row className="row-sm">
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/pdf.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/pdf.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -392,7 +392,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/07.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/07.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -407,7 +407,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/excel.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/excel.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -422,7 +422,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/06.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/06.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -437,7 +437,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -452,7 +452,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/file-video.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/file-video.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -467,7 +467,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/word.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/word.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -482,7 +482,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/01.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/01.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -497,7 +497,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/pdf.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/pdf.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -512,7 +512,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/excel.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/excel.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -527,7 +527,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/02.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/02.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="d-flex">
@@ -542,7 +542,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -557,7 +557,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/04.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/04.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -572,7 +572,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/05.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
+              <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/files/05.jpg")} alt="img" className="w-100 file-manager-list" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -587,7 +587,7 @@ const FileManager: FC<FileManagerProps> = () => (
           </Col>
           <Col xl={4} xxl={3} lg={6} md={6} sm={6}>
             <Card className="overflow-hidden">
-              <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/zip1.png")} alt="img" /></Link>
+              <Link to={`/filemanager/filedetails`} className="mx-auto my-3"><img src={require("../../../assets/images/media/files/zip1.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">

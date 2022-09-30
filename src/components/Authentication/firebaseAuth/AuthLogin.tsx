@@ -25,7 +25,7 @@ const SignIn = () => {
   }
   let navigate = useNavigate();
   const RouteChange = () => {
-    let path = `${process.env.PUBLIC_URL}/dashboard`;
+    let path = `/dashboard`;
     navigate(path);
   }
   return (
@@ -87,7 +87,7 @@ const SignIn = () => {
                     </Link>
 
                   </div>
-                  <Link to={`${process.env.PUBLIC_URL}/Authentication/firebaseAuth/SignUp`} className='d-flex justify-content-center mt-4'>
+                  <Link to={`/Authentication/firebaseAuth/SignUp`} className='d-flex justify-content-center mt-4'>
                     Create a new account ?
                   </Link>
 

@@ -112,10 +112,10 @@ const Editprofile: FC<EditprofileProps> = () => {
           <Card.Body>
             <div className="text-center chat-image mb-5">
               <div className="avatar avatar-xxl chat-profile mb-3 brround">
-                <Link className="" to={`${process.env.PUBLIC_URL}/pages/profile`}><img alt="avatar" src={require("../../../assets/images/users/7.jpg")} className="brround"/></Link>
+                <Link className="" to={`/pages/profile`}><img alt="avatar" src={require("../../../assets/images/users/7.jpg")} className="brround"/></Link>
               </div>
               <div className="main-chat-msg-name">
-                <Link to={`${process.env.PUBLIC_URL}/pages/profile`}>
+                <Link to={`/pages/profile`}>
                   <h5 className="mb-1 text-dark fw-semibold">Percy Kewshun</h5>
                 </Link>
                 <p className="text-muted mt-0 mb-0 pt-0 fs-13">Web Designer</p>

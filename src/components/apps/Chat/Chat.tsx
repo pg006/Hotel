@@ -881,10 +881,10 @@ const Chat: FC<ChatProps> = () => (
 
                 <div className="text-center chat-image p-4 pb-0 mb-4 br-5">
                   <div className="avatar avatar-xxl chat-profile mb-3 brround">
-                    <Link className="" to={`${process.env.PUBLIC_URL}/pages/profile`}><img alt="avatar" src={require("../../../assets/images/users/7.jpg")} className="brround" /></Link>
+                    <Link className="" to={`/pages/profile`}><img alt="avatar" src={require("../../../assets/images/users/7.jpg")} className="brround" /></Link>
                   </div>
                   <div className="main-chat-msg-name">
-                    <Link to={`${process.env.PUBLIC_URL}/pages/profile`}>
+                    <Link to={`/pages/profile`}>
                       <h5 className="mb-1 text-dark fw-semibold">Percy Kewshun</h5>
                     </Link>
                     <span className="dot-label bg-success"></span><small className="me-3">Available</small>

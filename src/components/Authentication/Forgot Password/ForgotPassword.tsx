@@ -29,10 +29,10 @@ const ForgotPassword: FC<ForgotPasswordProps> = () => (
             <input className="input100 border-start-0 ms-0 form-control" type="email" placeholder="Email" />
           </div>
           <div className="submit">
-            <Link className="btn btn-primary d-grid" to={`${process.env.PUBLIC_URL}/dashboard`}>Submit</Link>
+            <Link className="btn btn-primary d-grid" to={`/dashboard`}>Submit</Link>
           </div>
           <div className="text-center mt-4">
-            <p className="text-dark mb-0">Forgot It?<Link className="text-primary ms-1" to={`${process.env.PUBLIC_URL}/`}>Send me Back</Link></p>
+            <p className="text-dark mb-0">Forgot It?<Link className="text-primary ms-1" to={`/`}>Send me Back</Link></p>
           </div>
           <label className="login-social-icon"><span>OR</span></label>
           <div className="d-flex justify-content-center">

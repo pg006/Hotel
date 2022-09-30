@@ -151,8 +151,8 @@ class FullCalenderComponent extends React.Component<any> {
                           <div className="media media-xs overflow-visible">
                             <img className="avatar brround avatar-md me-3" src={require("../../../assets/images/users/12.jpg")} alt="avatar-img" />
                             <div className="media-body valign-middle">
-                              <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className=" fw-semibold text-dark">John Paige</Link><br />
-                              <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-muted mb-0"> View client profile</Link>
+                              <Link to={`/pages/profile`} className=" fw-semibold text-dark">John Paige</Link><br />
+                              <Link to={`/pages/profile`} className="text-muted mb-0"> View client profile</Link>
                             </div>
                           </div>
                         </Card.Footer>
@@ -175,8 +175,8 @@ class FullCalenderComponent extends React.Component<any> {
                           <div className="media media-xs overflow-visible">
                             <img className="avatar brround avatar-md me-3" src={require("../../../assets/images/users/16.jpg")} alt="avatar-img" />
                             <div className="media-body valign-middle">
-                              <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className=" fw-semibold text-dark">Mozelle Belt</Link><br />
-                              <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="text-muted mb-0"> View client profile</Link>
+                              <Link to={`/pages/profile`} className=" fw-semibold text-dark">Mozelle Belt</Link><br />
+                              <Link to={`/pages/profile`} className="text-muted mb-0"> View client profile</Link>
                             </div>
                           </div>
                         </Card.Footer>

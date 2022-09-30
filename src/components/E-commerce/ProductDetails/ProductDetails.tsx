@@ -74,8 +74,8 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
 
                   <hr />
                   <div className="btn-list mt-4">
-                    <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn ripple btn-primary me-2"><i className="fe fe-shopping-cart"> </i> Add to cart</Link>
-                    <Link to={`${process.env.PUBLIC_URL}/ecommerce/checkout`} className="btn ripple btn-secondary"><i className="fe fe-credit-card"> </i> Buy Now</Link>
+                    <Link to={`/ecommerce/shoppingcart`} className="btn ripple btn-primary me-2"><i className="fe fe-shopping-cart"> </i> Add to cart</Link>
+                    <Link to={`/ecommerce/checkout`} className="btn ripple btn-secondary"><i className="fe fe-credit-card"> </i> Buy Now</Link>
                   </div>
                 </div>
               </Col>
@@ -330,18 +330,18 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
             <div className="product-image6 p-5">
               <ul className="icons">
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
+                  <Link to={`/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
                 </li>
-                <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
+                <li><Link to={`/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
                 <li><Link to="#" className="bg-danger text-white border-danger border"><i className="fe fe-x"></i></Link></li>
               </ul>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-light">
+              <Link to={`/ecommerce/shoppingcart`} className="bg-light">
                 <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/4.jpg")} alt="img" />
               </Link>
             </div>
             <Card.Body className="pt-0">
               <div className="product-content text-center">
-                <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h1>
+                <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h1>
                 <div className="mb-2 text-warning">
                   <i className="fa fa-star text-warning"></i>
                   <i className="fa fa-star text-warning"></i>
@@ -354,8 +354,8 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
               </div>
             </Card.Body>
             <Card.Footer className="text-center">
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
+              <Link to={`/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
+              <Link to={`/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
             </Card.Footer>
           </div>
         </Card>
@@ -366,18 +366,18 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
             <div className="product-image6 p-5">
               <ul className="icons">
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
+                  <Link to={`/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
                 </li>
-                <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
+                <li><Link to={`/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
                 <li><Link to="#" className="bg-danger text-white border-danger border"><i className="fe fe-x"></i></Link></li>
               </ul>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-light">
+              <Link to={`/ecommerce/shoppingcart`} className="bg-light">
                 <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/6.jpg")} alt="img" />
               </Link>
             </div>
             <Card.Body className="pt-0">
               <div className="product-content text-center">
-                <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Black Digital Camera</Link></h1>
+                <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Black Digital Camera</Link></h1>
                 <div className="mb-2 text-warning">
                   <i className="fa fa-star text-warning"></i>
                   <i className="fa fa-star text-warning"></i>
@@ -390,8 +390,8 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
               </div>
             </Card.Body>
             <Card.Footer className="text-center">
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
+              <Link to={`/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
+              <Link to={`/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
             </Card.Footer>
           </div>
         </Card>
@@ -402,18 +402,18 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
             <div className="product-image6 p-5">
               <ul className="icons">
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
+                  <Link to={`/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
                 </li>
-                <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
+                <li><Link to={`/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
                 <li><Link to="#" className="bg-danger text-white border-danger border"><i className="fe fe-x"></i></Link></li>
               </ul>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-light">
+              <Link to={`/ecommerce/shoppingcart`} className="bg-light">
                 <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/9.jpg")} alt="img" />
               </Link>
             </div>
             <Card.Body className="pt-0">
               <div className="product-content text-center">
-                <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Candy Pure Rose Water</Link></h1>
+                <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Candy Pure Rose Water</Link></h1>
                 <div className="mb-2 text-warning">
                   <i className="fa fa-star text-warning"></i>
                   <i className="fa fa-star text-warning"></i>
@@ -426,8 +426,8 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
               </div>
             </Card.Body>
             <Card.Footer className="text-center">
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
+              <Link to={`/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
+              <Link to={`/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
             </Card.Footer>
           </div>
         </Card>
@@ -438,18 +438,18 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
             <div className="product-image6 p-5">
               <ul className="icons">
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
+                  <Link to={`/ecommerce/shoppingcart`} className="bg-primary text-white border-primary border"> <i className="fe fe-eye ">  </i> </Link>
                 </li>
-                <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
+                <li><Link to={`/ecommerce/addproduct`} className="bg-success text-white border-success border"><i className="fe fe-edit"></i></Link></li>
                 <li><Link to="#" className="bg-danger text-white border-danger border"><i className="fe fe-x"></i></Link></li>
               </ul>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="bg-light">
+              <Link to={`/ecommerce/shoppingcart`} className="bg-light">
                 <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/10.jpg")} alt="img" />
               </Link>
             </div>
             <Card.Body className="pt-0">
               <div className="product-content text-center">
-                <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>White Tshirt for Men</Link></h1>
+                <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>White Tshirt for Men</Link></h1>
                 <div className="mb-2 text-warning">
                   <i className="fa fa-star text-warning"></i>
                   <i className="fa fa-star text-warning"></i>
@@ -462,8 +462,8 @@ const ProductDetails: FC<ProductDetailsProps> = () => (
               </div>
             </Card.Body>
             <Card.Footer className="text-center">
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
+              <Link to={`/ecommerce/shoppingcart`}><button type="button" className="btn btn-primary mb-1 ms-3"><i className="fe fe-shopping-cart me-2"></i>Add to cart</button></Link>
+              <Link to={`/ecommerce/wishlist`}><button type="button" className="btn btn-outline-primary mb-1 ms-3"><i className="fe fe-heart me-2"></i>Add to wishlist</button></Link>
             </Card.Footer>
           </div>
         </Card>

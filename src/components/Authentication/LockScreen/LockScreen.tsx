@@ -20,7 +20,7 @@ const LockScreen: FC<LockScreenProps> = () => (
             <Password/>
           
           <div className="container-login100-form-btn pt-0">
-            <Link to={`${process.env.PUBLIC_URL}/dashboard`} className="login100-form-btn btn-primary">
+            <Link to={`/dashboard`} className="login100-form-btn btn-primary">
               Unlock
             </Link>
           </div>
@@ -28,7 +28,7 @@ const LockScreen: FC<LockScreenProps> = () => (
             <span className="txt1 me-3">
               I Forgot Password
             </span>
-            <Link className="" to={`${process.env.PUBLIC_URL}/authentication/forgotpassword`}>
+            <Link className="" to={`/authentication/forgotpassword`}>
               Give me a Hint
             </Link>
           </div>

@@ -291,7 +291,7 @@ const Shop: FC<ShopProps> = () => {
                         </Nav>
                       </Col>
                       <Col xl={3} lg={12}>
-                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-primary btn-block float-end my-2"><i className="fa fa-plus-square me-2"></i>New Product</Link>
+                        <Link to={`/ecommerce/addproduct`} className="btn btn-primary btn-block float-end my-2"><i className="fa fa-plus-square me-2"></i>New Product</Link>
                       </Col>
                     </Row>
 
@@ -306,18 +306,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/9.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Candy Pure Rose Water</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Candy Pure Rose Water</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -330,8 +330,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -342,18 +342,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/10.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>White Tshirt for Men</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>White Tshirt for Men</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -366,8 +366,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -378,18 +378,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/4.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Flower Pot for Home Decor</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -402,8 +402,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -414,18 +414,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <a href={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </a>
+                                      <a href={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </a>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/8.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Stylish Rockerz 255 Ear Pods</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Stylish Rockerz 255 Ear Pods</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -438,8 +438,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -450,18 +450,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/1.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Women Party Wear Dress</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Women Party Wear Dress</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -474,8 +474,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -486,18 +486,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/6.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <div className="card-body pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Black Digital Camera</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Black Digital Camera</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -510,8 +510,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </div>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -522,18 +522,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/5.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Men shirt for party wear</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Men shirt for party wear</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -546,8 +546,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -558,18 +558,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <a href={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <a href={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/7.jpg")} alt="img" />
                                   </a>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Light pink nail polish</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Light pink nail polish</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -582,8 +582,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body>
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -594,18 +594,18 @@ const Shop: FC<ShopProps> = () => {
                                 <div className="product-image6 p-5">
                                   <ul className="icons">
                                     <li>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
+                                      <Link to={`/ecommerce/productdetails`} className="btn btn-primary"> <i className="fe fe-eye">  </i> </Link>
                                     </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
+                                    <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit"></i></Link></li>
                                     <li><Link to="#" className="btn btn-danger"><i className="fe fe-x"></i></Link></li>
                                   </ul>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} >
+                                  <Link to={`/ecommerce/productdetails`} >
                                     <img className="img-fluid br-7 w-100" src={require("../../../assets/images/pngs/3.jpg")} alt="img" />
                                   </Link>
                                 </div>
                                 <Card.Body className="pt-0">
                                   <div className="product-content text-center">
-                                    <h1 className="title fw-bold fs-20"><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`}>Running Shoes for men</Link></h1>
+                                    <h1 className="title fw-bold fs-20"><Link to={`/ecommerce/productdetails`}>Running Shoes for men</Link></h1>
                                     <div className="mb-2 text-warning">
                                       <i className="fa fa-star text-warning"></i>
                                       <i className="fa fa-star text-warning"></i>
@@ -618,8 +618,8 @@ const Shop: FC<ShopProps> = () => {
                                   </div>
                                 </Card.Body   >
                                 <Card.Footer className="text-center">
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                  <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                  <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary mb-1"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                  <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary mb-1"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                 </Card.Footer>
                               </div>
                             </Card>
@@ -651,13 +651,13 @@ const Shop: FC<ShopProps> = () => {
                                     <div className="product-list">
                                       <div className="product-image">
                                         <ul className="icons">
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
+                                          <li><Link to={`/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
                                         </ul>
                                       </div>
                                       <div className="br-be-0 br-te-0">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <img src={require("../../../assets/images/pngs/9.jpg")} alt="img" className="cover-image br-7 w-100" />
                                         </Link>
                                       </div>
@@ -666,7 +666,7 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={6} lg={12} md={12} className="border-end my-auto">
                                     <Card.Body>
                                       <div className="mb-3">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <h3 className="fw-bold fs-30 mb-3">Candy Pure Rose Water</h3>
                                           <div className="mb-2 text-warning">
                                             <i className="fa fa-star fs-18 text-warning"></i>
@@ -705,8 +705,8 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={3} lg={12} md={12} className="my-auto">
                                     <Card.Body className="p-0">
                                       <div className="price h3 text-center mb-5 fw-bold">$599</div>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                      <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                      <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                     </Card.Body>
                                   </Col>
                                 </Row>
@@ -721,13 +721,13 @@ const Shop: FC<ShopProps> = () => {
                                     <div className="product-list">
                                       <div className="product-image">
                                         <ul className="icons">
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
+                                          <li><Link to={`/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
                                         </ul>
                                       </div>
                                       <div className="br-be-0 br-te-0">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <img src={require("../../../assets/images/pngs/10.jpg")} alt="img" className="cover-image br-7 w-100" />
                                         </Link>
                                       </div>
@@ -736,7 +736,7 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={6} lg={12} md={12} className="border-end my-auto">
                                     <Card.Body>
                                       <div className="mb-3">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <h3 className="fw-bold fs-30 mb-3">White Tshirt for Men</h3>
                                           <div className="mb-2 text-warning">
                                             <i className="fa fa-star fs-18 text-warning"></i>
@@ -775,8 +775,8 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={3} lg={12} md={12} className="my-auto">
                                     <Card.Body className="p-0">
                                       <div className="price h3 text-center mb-5 fw-bold">$1,399</div>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`} className="btn me-2 btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn me-2 btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
+                                      <Link to={`/ecommerce/shoppingcart`} className="btn me-2 btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</Link>
+                                      <Link to={`/ecommerce/wishlist`} className="btn me-2 btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</Link>
                                     </Card.Body>
                                   </Col>
                                 </Row>
@@ -791,13 +791,13 @@ const Shop: FC<ShopProps> = () => {
                                     <div className="product-list">
                                       <div className="product-image">
                                         <ul className="icons">
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
+                                          <li><Link to={`/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
                                         </ul>
                                       </div>
                                       <div className="br-be-0 br-te-0">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <img src={require("../../../assets/images/pngs/8.jpg")} alt="img" className="cover-image br-7 w-100" />
                                         </Link>
                                       </div>
@@ -806,7 +806,7 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={6} lg={12} md={12} className="border-end my-auto">
                                     <Card.Body>
                                       <div className="mb-3">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <h3 className="fw-bold fs-30 mb-3">Stylish Rockerz 255 Ear Pods</h3>
                                           <div className="mb-2 text-warning">
                                             <i className="fa fa-star fs-18 text-warning"></i>
@@ -845,8 +845,8 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={3} lg={12} md={12} className="my-auto">
                                     <Card.Body className="p-0">
                                       <div className="price h3 text-center mb-5 fw-bold">$16,599</div>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
+                                      <Link to={`/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
+                                      <Link to={`/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
                                     </Card.Body>
                                   </Col>
                                 </Row>
@@ -861,13 +861,13 @@ const Shop: FC<ShopProps> = () => {
                                     <div className="product-list">
                                       <div className="product-image">
                                         <ul className="icons">
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
+                                          <li><Link to={`/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
                                         </ul>
                                       </div>
                                       <div className="br-be-0 br-te-0">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <img src={require("../../../assets/images/pngs/4.jpg")} alt="img" className="cover-image br-7 w-100" />
                                         </Link>
                                       </div>
@@ -876,7 +876,7 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={6} lg={12} md={12} className="border-end my-auto">
                                     <Card.Body>
                                       <div className="mb-3">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <h3 className="fw-bold fs-30 mb-3">Flower Pot for Home Decor</h3>
                                           <div className="mb-2 text-warning">
                                             <i className="fa fa-star fs-18 text-warning"></i>
@@ -915,8 +915,8 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={3} lg={12} md={12} className="my-auto">
                                     <Card.Body className="p-0">
                                       <div className="price h3 text-center mb-5 fw-bold">$1,299</div>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
+                                      <Link to={`/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
+                                      <Link to={`/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
                                     </Card.Body>
                                   </Col>
                                 </Row>
@@ -931,13 +931,13 @@ const Shop: FC<ShopProps> = () => {
                                     <div className="product-list">
                                       <div className="product-image">
                                         <ul className="icons">
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
-                                          <li><Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
+                                          <li><Link to={`/ecommerce/productdetails`} className="btn btn-primary"><i className="fe fe-eye text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/addproduct`} className="btn btn-success"><i className="fe fe-edit text-white "></i></Link></li>
+                                          <li><Link to={`/ecommerce/wishlist`} className="btn btn-danger"><i className="fe fe-x text-white"></i></Link></li>
                                         </ul>
                                       </div>
                                       <div className="br-be-0 br-te-0">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <img src={require("../../../assets/images/pngs/3.jpg")} alt="img" className="cover-image br-7 w-100" />
                                         </Link>
                                       </div>
@@ -946,7 +946,7 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={6} lg={12} md={12} className="border-end my-auto">
                                     <Card.Body>
                                       <div className="mb-3">
-                                        <Link to={`${process.env.PUBLIC_URL}/ecommerce/productdetails`} className="">
+                                        <Link to={`/ecommerce/productdetails`} className="">
                                           <h3 className="fw-bold fs-30 mb-3">Running Shoes for men</h3>
                                           <div className="mb-2 text-warning">
                                             <i className="fa fa-star fs-18 text-warning"></i>
@@ -985,8 +985,8 @@ const Shop: FC<ShopProps> = () => {
                                   <Col xl={3} lg={12} md={12} className="my-auto">
                                     <Card.Body className="p-0">
                                       <div className="price h3 text-center mb-5 fw-bold">$6,599</div>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
-                                      <Link to={`${process.env.PUBLIC_URL}/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
+                                      <Link to={`/ecommerce/shoppingcart`}><span className="btn btn-primary btn-block"><i className="fe fe-shopping-cart mx-2"></i>Add to cart</span></Link>
+                                      <Link to={`/ecommerce/wishlist`}><span className="btn btn-outline-primary btn-block mt-2"><i className="fe fe-heart mx-2 wishlist-icon"></i>Add to wishlist</span></Link>
                                     </Card.Body>
                                   </Col>
                                 </Row>

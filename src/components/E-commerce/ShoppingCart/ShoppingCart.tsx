@@ -79,8 +79,8 @@ const ShoppingCart: FC<ShoppingCartProps> = () => (
           </Card.Body>
           <Card.Footer>
             <div className="btn-list d-flex justify-content-between flex-wrap">
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/shop`} className="btn btn-primary"><i className="fa fa-arrow-left mx-1"></i>Continue Shopping</Link>
-              <Link to={`${process.env.PUBLIC_URL}/ecommerce/checkout`} className="btn btn-success">Check out<i className="fa fa-arrow-right mx-1"></i></Link>
+              <Link to={`/ecommerce/shop`} className="btn btn-primary"><i className="fa fa-arrow-left mx-1"></i>Continue Shopping</Link>
+              <Link to={`/ecommerce/checkout`} className="btn btn-success">Check out<i className="fa fa-arrow-right mx-1"></i></Link>
             </div>
           </Card.Footer>
         </Card>

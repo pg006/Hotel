@@ -38,7 +38,7 @@ const LandingPage: FC<LandingPageProps> = () => (
                         <div className="d-flex">
                             <Link aria-label="Hide Sidebar" className="app-sidebar__toggle" data-bs-toggle="sidebar" to="#" onClick={() => sidebarToggled()}></Link>
                             {/* <!-- sidebar-toggle--> */}
-                            <Link className="logo-horizontal " to={`${process.env.PUBLIC_URL}/dashboard`}>
+                            <Link className="logo-horizontal " to={`/dashboard`}>
                                 <img src={require("../../assets/images/brand/logo.png")} className="header-brand-img desktop-logo" alt="logo" />
                                 <img src={require("../../assets/images/brand/logo-3.png")} className="header-brand-img light-logo1" alt="logo" />
                             </Link>
@@ -52,9 +52,9 @@ const LandingPage: FC<LandingPageProps> = () => (
                                     <NavbarCollapse className=" bg-white px-0" id="navbarSupportedContent-4">
                                         {/* <!-- SEARCH --> */}
                                         <div className="header-nav-right p-5">
-                                            <Link to={`${process.env.PUBLIC_URL}/authentication/register`} className="btn ripple btn-min w-sm btn-outline-primary me-2">New User
+                                            <Link to={`/authentication/register`} className="btn ripple btn-min w-sm btn-outline-primary me-2">New User
                                             </Link>
-                                            <Link to={`${process.env.PUBLIC_URL}/authentication/login`} className="btn ripple btn-min w-sm btn-primary me-2">Login
+                                            <Link to={`/authentication/login`} className="btn ripple btn-min w-sm btn-primary me-2">Login
                                             </Link>
                                         </div>
                                     </NavbarCollapse>
@@ -72,7 +72,7 @@ const LandingPage: FC<LandingPageProps> = () => (
                             <Container>
                                 <Row>
                                     <Navbar className="main-sidemenu navbar px-0 justify-content-between">
-                                        <NavbarBrand className="ps-0 d-none d-lg-block" href={`${process.env.PUBLIC_URL}/dashboard`}>
+                                        <NavbarBrand className="ps-0 d-none d-lg-block" href={`/dashboard`}>
                                             <img alt="logo-3" className="logo-2" src={require("../../assets/images/brand/logo-3.png")} />
                                             <img src={require("../../assets/images/brand/logo.png")} className="logo-3" alt="logo" />
                                         </NavbarBrand>
@@ -101,9 +101,9 @@ const LandingPage: FC<LandingPageProps> = () => (
                                             </li>
                                         </ul>
                                         <div className="header-nav-right d-lg-flex d-none">
-                                            <Link to={`${process.env.PUBLIC_URL}/authentication/register`} className="btn ripple btn-min w-sm btn-outline-primary me-2 my-auto d-lg-none d-xl-block d-block" target="_blank">New User
+                                            <Link to={`/authentication/register`} className="btn ripple btn-min w-sm btn-outline-primary me-2 my-auto d-lg-none d-xl-block d-block" target="_blank">New User
                                             </Link>
-                                            <Link to={`${process.env.PUBLIC_URL}/authentication/login`} className="btn ripple btn-min w-sm btn-primary me-2 my-auto d-lg-none d-xl-block d-block" target="_blank">Login
+                                            <Link to={`/authentication/login`} className="btn ripple btn-min w-sm btn-primary me-2 my-auto d-lg-none d-xl-block d-block" target="_blank">Login
                                             </Link>
                                         </div>
                                         <div className="demo-icon demoicon nav-link icon" > <i className="fe fe-settings fa-spin  text_primary" onClick={() => SidSwitcherIcon()}></i> </div>
@@ -849,7 +849,7 @@ const LandingPage: FC<LandingPageProps> = () => (
                                                             <img className="card-aside-column br-5 cover-image" alt='media-12' src={require("../../assets/images/media/12.jpg")} />
                                                             <div className="ps-3 flex-column">
                                                                 <Badge bg="primary" className="me-1 mb-1 mt-1">Business</Badge>
-                                                                <h3><Link to={`${process.env.PUBLIC_URL}/Pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h3>
+                                                                <h3><Link to={`/Pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h3>
                                                                 <div className="">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                                                             </div>
                                                         </div>
@@ -865,7 +865,7 @@ const LandingPage: FC<LandingPageProps> = () => (
 
                                                             <div className="ps-3 flex-column">
                                                                 <Badge bg="danger" className="me-1 mb-1 mt-1">Lifestyle</Badge>
-                                                                <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h3>
+                                                                <h3><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h3>
                                                                 <div className="">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                                                             </div>
                                                         </div>
@@ -882,7 +882,7 @@ const LandingPage: FC<LandingPageProps> = () => (
 
                                                             <div className="ps-3 flex-column">
                                                                 <Badge bg='secondary' className="me-1 mb-1 mt-1">Travel</Badge>
-                                                                <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h3>
+                                                                <h3><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h3>
                                                                 <div className="">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                                                             </div>
                                                         </div>
@@ -899,7 +899,7 @@ const LandingPage: FC<LandingPageProps> = () => (
 
                                                             <div className="ps-3 flex-column">
                                                                 <Badge bg='success' className="me-1 mb-1 mt-1">Meeting</Badge>
-                                                                <h3><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h3>
+                                                                <h3><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h3>
                                                                 <div className="">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                                                             </div>
                                                         </div>
@@ -908,7 +908,7 @@ const LandingPage: FC<LandingPageProps> = () => (
                                                 {/* <!-- COL-END --> */}
                                             </Col>
                                             <div className="text-center mt-5">
-                                                <Link to={`${process.env.PUBLIC_URL}/pages/extension/blogs`} className="btn btn-outline-primary pt-2 pb-2" target="_blank"><i className="fe fe-arrow-right mx-2"></i>Discover More</Link>
+                                                <Link to={`/pages/extension/blogs`} className="btn btn-outline-primary pt-2 pb-2" target="_blank"><i className="fe fe-arrow-right mx-2"></i>Discover More</Link>
 
                                             </div>
                                         </Row>
@@ -1099,28 +1099,28 @@ const LandingPage: FC<LandingPageProps> = () => (
                                         <Col lg={2} sm={6} md={4} className="">
                                             <h6>Pages</h6>
                                             <ul className="list-unstyled mb-5 mb-lg-0">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/dashboard`}>Dashboard</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/bootstrap/bootstrapalerts`}>Elements</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/forms/formelements`}>Forms</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/charts/chartjs`}>Charts</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/tables/datatables`}>Tables</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/filemanager/fileattachments`}>Other Pages</Link></li>
+                                                <li><Link to={`/dashboard`}>Dashboard</Link></li>
+                                                <li><Link to={`/bootstrap/bootstrapalerts`}>Elements</Link></li>
+                                                <li><Link to={`/pages/forms/formelements`}>Forms</Link></li>
+                                                <li><Link to={`/charts/chartjs`}>Charts</Link></li>
+                                                <li><Link to={`/pages/tables/datatables`}>Tables</Link></li>
+                                                <li><Link to={`/filemanager/fileattachments`}>Other Pages</Link></li>
                                             </ul>
                                         </Col>
                                         <Col lg={2} sm={6} md={4} className="">
                                             <h6>Information</h6>
                                             <ul className="list-unstyled mb-5 mb-lg-0">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/aboutcompany`}>Our Team</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/aboutcompany`}>Contact US</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/aboutcompany`}>About</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/services`}>Services</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogs`}>Blog</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/pages/extension/term`}>Terms and Services</Link></li>
+                                                <li><Link to={`/pages/extension/aboutcompany`}>Our Team</Link></li>
+                                                <li><Link to={`/pages/extension/aboutcompany`}>Contact US</Link></li>
+                                                <li><Link to={`/pages/extension/aboutcompany`}>About</Link></li>
+                                                <li><Link to={`/pages/extension/services`}>Services</Link></li>
+                                                <li><Link to={`/pages/extension/blogs`}>Blog</Link></li>
+                                                <li><Link to={`/pages/extension/term`}>Terms and Services</Link></li>
                                             </ul>
                                         </Col>
                                         <Col lg={4} sm={12} md={4} className="">
                                             <div className="">
-                                                <Link to={`${process.env.PUBLIC_URL}/dashboard`}><img loading="lazy" alt="" className="logo mb-3" src="../assets/images/brand/logo-3.png" /></Link>
+                                                <Link to={`/dashboard`}><img loading="lazy" alt="" className="logo mb-3" src="../assets/images/brand/logo-3.png" /></Link>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat.</p>
                                                 <div className="form-group">
                                                     <InputGroup>

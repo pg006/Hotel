@@ -232,7 +232,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/2.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Addie Minstra</div>
                             <p className="mb-0 fs-12 text-muted"> Hey! there I' am available.... </p>
@@ -246,7 +246,7 @@ const Rightside: FC<RightsideProps> = () => (
                           <span className="avatar-status bg-success"></span>
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Rose Bush</div>
                             <p className="mb-0 fs-12 text-muted"> Okay...I will be waiting for you </p>
@@ -259,7 +259,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/10.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Claude Strophobia</div>
                             <p className="mb-0 fs-12 text-muted"> Hi we can explain our new project......
@@ -273,7 +273,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/13.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Eileen Dover</div>
                             <p className="mb-0 fs-12 text-muted"> New product Launching... </p>
@@ -287,7 +287,7 @@ const Rightside: FC<RightsideProps> = () => (
                           <span className="avatar-status bg-success"></span>
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Willie Findit</div>
                             <p className="mb-0 fs-12 text-muted"> Okay...I will be waiting for you </p>
@@ -300,7 +300,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/15.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Manny Jah</div>
                             <p className="mb-0 fs-12 text-muted"> Hi we can explain our new project......
@@ -314,7 +314,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/4.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Cherry Blossom</div>
                             <p className="mb-0 fs-12 text-muted"> Hey! there I' am available....</p>
@@ -329,7 +329,7 @@ const Rightside: FC<RightsideProps> = () => (
                           <span className="avatar-status bg-success"></span>
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Simon Sais</div>
                             <p className="mb-0 fs-12 text-muted">Schedule Realease...... </p>
@@ -342,7 +342,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/9.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Laura Biding</div>
                             <p className="mb-0 fs-12 text-muted"> Hi we can explain our new project......
@@ -357,7 +357,7 @@ const Rightside: FC<RightsideProps> = () => (
                           <span className="avatar-status bg-success"></span>
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Addie Minstra</div>
                             <p className="mb-0 fs-12 text-muted">Contact me for details....</p>
@@ -370,7 +370,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/9.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Ivan Notheridiya</div>
                             <p className="mb-0 fs-12 text-muted"> Hi we can explain our new project......
@@ -384,7 +384,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/14.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Dulcie Veeta</div>
                             <p className="mb-0 fs-12 text-muted"> Okay...I will be waiting for you </p>
@@ -397,7 +397,7 @@ const Rightside: FC<RightsideProps> = () => (
                             src={require("../../assets/images/users/11.jpg")} />
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Florinda Carasco</div>
                             <p className="mb-0 fs-12 text-muted">New product Launching...</p>
@@ -411,7 +411,7 @@ const Rightside: FC<RightsideProps> = () => (
                           <span className="avatar-status bg-success"></span>
                         </div>
                         <div className="">
-                          <Link to={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Link to={`/apps/chat`}>
                             <div className="fw-semibold text-dark" data-bs-toggle="modal"
                               data-target="#chatmodel">Cherry Blossom</div>
                             <p className="mb-0 fs-12 text-muted">cherryblossom@gmail.com</p>

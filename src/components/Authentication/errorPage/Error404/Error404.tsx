@@ -39,7 +39,7 @@ const Error404: FC<Error404Props> = () => (
                             Sorry, an error has occured, Requested page not found!
                         </h5>
                         <div className="text-center">
-                            <Link className="btn btn-secondary mt-5 mb-5" to={`${process.env.PUBLIC_URL}/dashboard`}> <i className="fa fa-long-arrow-left"></i> Back to Home </Link>
+                            <Link className="btn btn-secondary mt-5 mb-5" to={`/dashboard`}> <i className="fa fa-long-arrow-left"></i> Back to Home </Link>
                         </div>
                     </div>
                 </div>

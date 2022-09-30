@@ -81,7 +81,7 @@ const BlogPost: FC<BlogPostProps> = () => {
                 <img className="card-aside-column br-5 cover-image" alt="media19" src={require("../../../../assets/images/media/19.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg='danger' className="me-1 mb-1 mt-1">Lifestyle</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const BlogPost: FC<BlogPostProps> = () => {
                 <img className="card-aside-column br-5 cover-image" alt="media19" src={require("../../../../assets/images/media/22.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg='primary' className="me-1 mb-1 mt-1">Business</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const BlogPost: FC<BlogPostProps> = () => {
                 <img className="card-aside-column br-5 cover-image" alt="media19" src={require("../../../../assets/images/media/12.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg="secondary" className="me-1 mb-1 mt-1">Travel</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Generator on the Internet..</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const BlogPost: FC<BlogPostProps> = () => {
                 <img className="card-aside-column br-5 cover-image" alt="media19" src={require("../../../../assets/images/media/25.jpg")} />
                 <div className="ps-3 flex-column">
                   <Badge bg="success" className="me-1 mb-1 mt-1">Meeting</Badge>
-                  <h4><Link to={`${process.env.PUBLIC_URL}/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
+                  <h4><Link to={`/pages/extension/blogdetails`}>Voluptatem quia voluptas...</Link></h4>
                   <div className="text-muted">Excepteur sint occaecat cupidatat non proident, accusantium sunt in culpa qui officia deserunt mollit anim id est laborum....</div>
                 </div>
               </div>
@@ -121,28 +121,28 @@ const BlogPost: FC<BlogPostProps> = () => {
               <div className="d-flex overflow-visible">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/12.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">John Paige</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">John Paige</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/2.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Peter Hill</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Peter Hill</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/9.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Irene Harris</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Irene Harris</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>
               <div className="d-flex overflow-visible mt-5">
                 <img className="avatar bradius avatar-xl me-3" src={require("../../../../assets/images/users/4.jpg")} alt="avatar-img" />
                 <div className="media-body valign-middle">
-                  <Link to={`${process.env.PUBLIC_URL}/pages/profile`} className="fw-semibold text-dark">Harry Fisher</Link>
+                  <Link to={`/pages/profile`} className="fw-semibold text-dark">Harry Fisher</Link>
                   <p className="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
                 </div>
               </div>

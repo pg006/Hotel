@@ -140,7 +140,7 @@ const Header = () => {
         <div className="container-fluid main-container">
           <div className="d-flex">
             <Link aria-label="Hide Sidebar" className="app-sidebar__toggle" data-bs-toggle="sidebar" to="#" onClick={() => SideMenuIcon()} />
-            <Link className="logo-horizontal " to={`${process.env.PUBLIC_URL}/Dashboard`}>
+            <Link className="logo-horizontal " to={`/Dashboard`}>
               <img src={require("../../assets/images/brand/logo.png")} className="header-brand-img desktop-logo" alt="logo" />
               <img src={require("../../assets/images/brand/logo-3.png")} className="header-brand-img light-logo1" alt="logo" />
             </Link>
@@ -310,7 +310,7 @@ const Header = () => {
                         </div>
                         {/* <div className="header-dropdown-list message-menu"> */}
                         <PerfectScrollbar style={{ height: "300px" }}>
-                          <Dropdown.Item href={`${process.env.PUBLIC_URL}/Ecommerce/shoppingcart`} className="d-flex p-4">
+                          <Dropdown.Item href={`/Ecommerce/shoppingcart`} className="d-flex p-4">
 
                             <img className="avatar avatar-xl br-5 me-3 align-self-center cover-image" src={require("../../assets/images/pngs/4.jpg")} alt='pngs-4' />
                             <div className="wd-50p">
@@ -327,7 +327,7 @@ const Header = () => {
                               </span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item href={`${process.env.PUBLIC_URL}/Ecommerce/shoppingcart`} className="d-flex p-4">
+                          <Dropdown.Item href={`/Ecommerce/shoppingcart`} className="d-flex p-4">
 
                             <img
                               className="avatar avatar-xl br-5 me-3 align-self-center cover-image" alt='pngs-6'
@@ -346,7 +346,7 @@ const Header = () => {
                               </span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item href={`${process.env.PUBLIC_URL}/Ecommerce/shoppingcart`} className="d-flex p-4">
+                          <Dropdown.Item href={`/Ecommerce/shoppingcart`} className="d-flex p-4">
 
                             <img
                               className="avatar avatar-xl br-5 me-3 align-self-center cover-image" alt='pngs-8'
@@ -365,7 +365,7 @@ const Header = () => {
                               </span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item href={`${process.env.PUBLIC_URL}/Ecommerce/shoppingcart`} className="d-flex p-4">
+                          <Dropdown.Item href={`/Ecommerce/shoppingcart`} className="d-flex p-4">
 
                             <img
                               className="avatar avatar-xl br-5 me-3 align-self-center cover-image" alt='pngs-1'
@@ -384,7 +384,7 @@ const Header = () => {
                               </span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item href={`${process.env.PUBLIC_URL}/Ecommerce/shoppingcart`} className="d-flex p-4">
+                          <Dropdown.Item href={`/Ecommerce/shoppingcart`} className="d-flex p-4">
 
                             <img
                               className="avatar avatar-xl br-5 me-3 align-self-center cover-image" alt='pngs-3'
@@ -406,7 +406,7 @@ const Header = () => {
                         </PerfectScrollbar>
                         <Dropdown.Divider className="m-0" />
                         <div className="dropdown-footer">
-                          <Link className="btn btn-primary btn-pill w-sm btn-sm py-2" to={`${process.env.PUBLIC_URL}/Ecommerce/checkout`}><i className="fe fe-check-circle"></i> Checkout</Link>
+                          <Link className="btn btn-primary btn-pill w-sm btn-sm py-2" to={`/Ecommerce/checkout`}><i className="fe fe-check-circle"></i> Checkout</Link>
                           <span className="float-end p-2 fs-17 fw-semibold">Total: $6789</span>
                         </div>
                       </Dropdown.Menu>
@@ -432,7 +432,7 @@ const Header = () => {
                           </div>
                         </div>
                         <div className="notifications-menu">
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/Pages/notificationlist`}>
+                          <Dropdown.Item className="d-flex" href={`/Pages/notificationlist`}>
                             <div
                               className="me-3 notifyimg  bg-primary brround box-shadow-primary">
                               <i className="fe fe-mail"></i>
@@ -443,7 +443,7 @@ const Header = () => {
                               <span className="notification-subtext">3 days ago</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/Pages/notificationlist`}>
+                          <Dropdown.Item className="d-flex" href={`/Pages/notificationlist`}>
                             <div
                               className="me-3 notifyimg  bg-secondary brround box-shadow-secondary">
                               <i className="fe fe-check-circle"></i>
@@ -454,7 +454,7 @@ const Header = () => {
                               <span className="notification-subtext">2 hours ago</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/Pages/notificationlist`}>
+                          <Dropdown.Item className="d-flex" href={`/Pages/notificationlist`}>
                             <div
                               className="me-3 notifyimg  bg-success brround box-shadow-success">
                               <i className="fe fe-shopping-cart"></i>
@@ -465,7 +465,7 @@ const Header = () => {
                               <span className="notification-subtext">30 min ago</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/Pages/notificationlist`}>
+                          <Dropdown.Item className="d-flex" href={`/Pages/notificationlist`}>
                             <div className="me-3 notifyimg bg-pink brround box-shadow-pink">
                               <i className="fe fe-user-plus"></i>
                             </div>
@@ -476,7 +476,7 @@ const Header = () => {
                           </Dropdown.Item>
                         </div>
                         <div className="dropdown-divider m-0"></div>
-                        <Dropdown.Item href={`${process.env.PUBLIC_URL}/Pages/notificationlist`}
+                        <Dropdown.Item href={`/Pages/notificationlist`}
                           className="dropdown-item text-center p-3 text-muted">View all
                           Notification</Dropdown.Item>
                       </Dropdown.Menu>
@@ -499,7 +499,7 @@ const Header = () => {
                           </div>
                         </div>
                         <div className="message-menu">
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Dropdown.Item className="d-flex" href={`/apps/chat`}>
                             <img
                               className="avatar avatar-md brround me-3 align-self-center cover-image" alt='user-1'
                               src={require("../../assets/images/users/1.jpg")} />
@@ -513,7 +513,7 @@ const Header = () => {
                               <span>Commented on file Guest list....</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Dropdown.Item className="d-flex" href={`/apps/chat`}>
                             <img
                               className="avatar avatar-md brround me-3 align-self-center cover-image" alt='user-15'
                               src={require("../../assets/images/users/15.jpg")} />
@@ -527,7 +527,7 @@ const Header = () => {
                               <span>New Meetup Started......</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Dropdown.Item className="d-flex" href={`/apps/chat`}>
                             <img
                               className="avatar avatar-md brround me-3 align-self-center cover-image" alt='user-12'
                               src={require("../../assets/images/users/12.jpg")} />
@@ -541,7 +541,7 @@ const Header = () => {
                               <span>Brizid is in the Warehouse...</span>
                             </div>
                           </Dropdown.Item>
-                          <Dropdown.Item className="d-flex" href={`${process.env.PUBLIC_URL}/apps/chat`}>
+                          <Dropdown.Item className="d-flex" href={`/apps/chat`}>
                             <img
                               className="avatar avatar-md brround me-3 align-self-center cover-image" alt='user-4'
                               src={require("../../assets/images/users/4.jpg")} />
@@ -587,17 +587,17 @@ const Header = () => {
                           </div>
                         </div>
                         <div className="dropdown-divider m-0"></div>
-                        <Dropdown.Item className="dropdown-item" href={`${process.env.PUBLIC_URL}/Pages/profile`}>
+                        <Dropdown.Item className="dropdown-item" href={`/Pages/profile`}>
                           <i className="dropdown-icon fe fe-user"></i> Profile
                         </Dropdown.Item>
-                        <Dropdown.Item className="dropdown-item" href={`${process.env.PUBLIC_URL}/Pages/mailinbox`}>
+                        <Dropdown.Item className="dropdown-item" href={`/Pages/mailinbox`}>
                           <i className="dropdown-icon fe fe-mail"></i> Inbox
                           <span className="badge bg-danger rounded-pill float-end">5</span>
                         </Dropdown.Item>
-                        <Dropdown.Item className="dropdown-item" href={`${process.env.PUBLIC_URL}/Authentication/lockscreen`}>
+                        <Dropdown.Item className="dropdown-item" href={`/Authentication/lockscreen`}>
                           <i className="dropdown-icon fe fe-lock"></i> Lockscreen
                         </Dropdown.Item>
-                        <Dropdown.Item className="dropdown-item" href={`${process.env.PUBLIC_URL}/Authentication/login`}>
+                        <Dropdown.Item className="dropdown-item" href={`/Authentication/login`}>
                           <i className="dropdown-icon fe fe-alert-circle"></i> Sign out
                         </Dropdown.Item>
                       </Dropdown.Menu>

@@ -15,9 +15,9 @@ const MailRead: FC<MailReadProps> = () => (
         <Card>
           <ListGroup className="list-group-transparent mb-0 mail-inbox pb-3" defaultActiveKey='#link'>
             <div className="mt-4 mb-4 mx-4 text-center">
-              <Link to={`${process.env.PUBLIC_URL}/pages/mailcompose`} className="btn btn-primary btn-lg d-grid">Compose</Link>
+              <Link to={`/pages/mailcompose`} className="btn btn-primary btn-lg d-grid">Compose</Link>
             </div>
-            <Link to={`${process.env.PUBLIC_URL}/pages/mailinbox`} className=""><ListGroup.Item eventKey='#link' className="d-flex align-items-center mx-4">
+            <Link to={`/pages/mailinbox`} className=""><ListGroup.Item eventKey='#link' className="d-flex align-items-center mx-4">
               <span className="icons"><i className="ri-mail-line"></i></span> Inbox <Badge bg='secondary' className="ms-auto bradius">14</Badge>
             </ListGroup.Item></Link>
             <Link to="#"><ListGroup.Item href="#link1" className="d-flex align-items-center mx-4">
@@ -102,32 +102,32 @@ const MailRead: FC<MailReadProps> = () => (
               <p className="mb-0">Thanking you Sir/Madam</p>
               <hr />
               <div className="email-attch">
-                <h6 className="font-weight-semibold">3 Attachments <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`}>View</Link></h6>
+                <h6 className="font-weight-semibold">3 Attachments <Link to={`/FileManager/filedetails`}>View</Link></h6>
               </div>
               <Row className="attachments-doc">
                 <Col xl={3} lg={3} md={4} sm={4} className="mb-2 mb-sm-0">
                   <div className="border overflow-hidden p-0 br-7">
-                    <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/8.jpg")} className="card-img-top" alt="img" /></Link>
+                    <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/8.jpg")} className="card-img-top" alt="img" /></Link>
                     <div className="p-3 text-center">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image.jpg</Link>
+                      <Link to={`/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image.jpg</Link>
                       <p className="text-muted.ms-2 mb-0 fs-11">(223 KB)</p>
                     </div>
                   </div>
                 </Col>
                 <Col xl={3} lg={3} md={4} sm={4} className="mb-2 mb-sm-0">
                   <div className="border overflow-hidden p-0 br-7">
-                    <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/22.jpg")} className="card-img-top" alt="img" /></Link>
+                    <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/22.jpg")} className="card-img-top" alt="img" /></Link>
                     <div className="p-3 text-center">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image2.jpg</Link>
+                      <Link to={`/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image2.jpg</Link>
                       <p className="text-muted.ms-2 mb-0 fs-11">(122 KB)</p>
                     </div>
                   </div>
                 </Col>
                 <Col xl={3} lg={3} md={4} sm={4} className="mb-2 mb-sm-0">
                   <div className="border overflow-hidden p-0 br-7">
-                    <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`}><img src={require("../../../assets/images/media/6.jpg")} className="card-img-top" alt="img" /></Link>
+                    <Link to={`/filemanager/filedetails`}><img src={require("../../../assets/images/media/6.jpg")} className="card-img-top" alt="img" /></Link>
                     <div className="p-3 text-center">
-                      <Link to={`${process.env.PUBLIC_URL}/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image3.jpg</Link>
+                      <Link to={`/filemanager/filedetails`} className="fw-semibold fs-15 text-dark">Image3.jpg</Link>
                       <p className="text-muted.ms-2 mb-0 fs-11">(345 KB)</p>
                     </div>
                   </div>

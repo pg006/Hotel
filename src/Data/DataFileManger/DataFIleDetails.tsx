@@ -158,7 +158,7 @@ export class RecentFolder extends Component {
 
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`}><img src={require("../../assets/images/media/files/03.jpg")} alt="img" height="124" className="w-100" /></Link>
+              <Link to={`/FileManager/filedetails`}><img src={require("../../assets/images/media/files/03.jpg")} alt="img" height="124" className="w-100" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -173,7 +173,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/pdf.png")} alt="img" /></Link>
+              <Link to={`/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/pdf.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -188,7 +188,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`}><img src={require("../../assets/images/media/files/07.jpg")} alt="img" height="124" className="w-100" /></Link>
+              <Link to={`/FileManager/filedetails`}><img src={require("../../assets/images/media/files/07.jpg")} alt="img" height="124" className="w-100" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -203,7 +203,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/excel.png")} alt="img" /></Link>
+              <Link to={`/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/excel.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -218,7 +218,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`}><img src={require("../../assets/images/media/files/06.jpg")} alt="img" height="124" className="w-100" /></Link>
+              <Link to={`/FileManager/filedetails`}><img src={require("../../assets/images/media/files/06.jpg")} alt="img" height="124" className="w-100" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -233,7 +233,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
+              <Link to={`/FileManager/filedetails`} className="mx-auto my-3"><img src={require("../../assets/images/media/files/ppt1.png")} alt="img" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="">
@@ -248,7 +248,7 @@ export class RecentFolder extends Component {
           </div>
           <div className="item p-2">
             <Card className="overflow-hidden border p-0 mb-0 bg-white">
-              <Link to={`${process.env.PUBLIC_URL}/FileManager/filedetails`}><img src={require("../../assets/images/media/files/02.jpg")} alt="img" height="124" className="w-100" /></Link>
+              <Link to={`/FileManager/filedetails`}><img src={require("../../assets/images/media/files/02.jpg")} alt="img" height="124" className="w-100" /></Link>
               <Card.Footer>
                 <div className="d-flex">
                   <div className="d-flex">

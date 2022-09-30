@@ -43,15 +43,15 @@ const Login: FC<LoginProps> = () => (
                           </div>
                           <Password/>
                           <div className="text-end pt-4">
-                            <p className="mb-0"><Link to={`${process.env.PUBLIC_URL}/authentication/forgotpassword`} className="text-primary ms-1">Forgot Password?</Link></p>
+                            <p className="mb-0"><Link to={`/authentication/forgotpassword`} className="text-primary ms-1">Forgot Password?</Link></p>
                           </div>
                           <div className="container-login100-form-btn">
-                            <Link to={`${process.env.PUBLIC_URL}/dashboard`} className="login100-form-btn btn-primary">
+                            <Link to={`/dashboard`} className="login100-form-btn btn-primary">
                               Login
                             </Link>
                           </div>
                           <div className="text-center pt-3">
-                            <p className="text-dark mb-0">Not a member?<Link to={`${process.env.PUBLIC_URL}/authentication/register`} className="text-primary ms-1">Sign UP</Link></p>
+                            <p className="text-dark mb-0">Not a member?<Link to={`/authentication/register`} className="text-primary ms-1">Sign UP</Link></p>
                           </div>
                           <label className="login-social-icon"><span>Login with Social</span></label>
                           <div className="d-flex justify-content-center">

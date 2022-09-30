@@ -18,7 +18,7 @@ const Invoice: FC<InvoiceProps> = () => (
           <Card.Body>
             <Row>
               <Col lg={6}>
-                <Link className="header-brand" to={`${process.env.PUBLIC_URL}/dashboard`}>
+                <Link className="header-brand" to={`/dashboard`}>
                   <img src={require("../../../../assets/images/brand/logo-3.png")} className="header-brand-img logo-3 m-0" alt="Sash logo" />
                   <img src={require("../../../../assets/images/brand/logo.png")} className="header-brand-img logo m-0" alt="Sash logo" />
                 </Link>
